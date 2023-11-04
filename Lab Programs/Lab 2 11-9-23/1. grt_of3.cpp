@@ -1,14 +1,23 @@
 /*Program to find the greatest of 3 numbers*/
 #include<stdio.h>
-#include<math.h>
 int main()
 {
 	int a,b,c,d;
 	printf("Enter the 3 numbers \n");
-	scanf("%d %d %d",a,b,c);
-	if (a>b) {
-		if (a>c) {
-		}
+	scanf("%d %d %d",&a,&b,&c);
+	if (a>b) 
+	{
+		if (a>c) 
+			d=a;
+		if (a<c)
+			d=c;
+	}
+	else
+	{
+		if (b>c)
+		d=b;
+		else
+		d=c;
 	}
 	printf("The greatest is",d);
 }
