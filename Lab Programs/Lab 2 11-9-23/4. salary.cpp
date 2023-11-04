@@ -9,12 +9,12 @@ int main()
 	scanf("%d",&r);
 	if (r==1)
 	{
-	t=b+27*b/100+16*b/100;	
+	t=(b+27*b/100)+(16*b)/100;	
 	printf("Total salary is %d",t);
 	}
 	if (r==2)
 	{
-	t=b+24*b/100+12*b/100;
+	t=b+(24*b)/100+(12*b)/100;
 	printf("Total salary is %d",t);
 	}
 	

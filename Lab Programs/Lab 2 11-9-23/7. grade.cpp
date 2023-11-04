@@ -2,24 +2,36 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c,d,e;
-	float f;
+	int a[5];
+	int i;
 	printf("Marks in Physics");
-	scanf("%d",&a);
-	if (a>=90)
-	print("A grade");
-	else if (a>=80 && a<=90)
-	print("B grade");
-	else if (a>=70 && a<=80)
-	print("C grade");
-	else if (a>=60 && a<=70)
-	print("D grade");
-	else if (a>=40 && a<=60)
-	print("E grade");
-	else if (a<40)
-	print("F grade");
-	
+	scanf("%d",&a[0]);
 	printf("Marks in Chemistry");
+	scanf("%d",&a[1]);
+	printf("Marks in Biology");
+	scanf("%d",&a[2]);
+	printf("Marks in Mathematics");
+	scanf("%d",&a[3]);
+	printf("Marks in Computer");
+	scanf("%d",&a[4]);
+	for (i=0;i<5;i++)
+	{	
+	if (a[i]>=90)
+	printf("A grade \n");
+	else if (a[i]>=80 && a[i]<90)
+	printf("B grade \n");
+	else if (a[i]>=70 && a[i]<80)
+	printf("C grade \n");
+	else if (a[i]>=60 && a[i]<70)
+	printf("D grade \n");
+	else if (a[i]>=40 && a[i]<60)
+	printf("E grade \n");
+	else if (a[i]<40)
+	printf("F grade \n");
+	}
+	return 0;
+}
+	/*printf("Marks in Chemistry");
 	scanf("%d",&b);
 	if (b>=90)
 	print("A grade");
@@ -79,4 +91,4 @@ int main()
 	else if (e<40)
 	print("F grade");
 	
-}
+}*/

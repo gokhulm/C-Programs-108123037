@@ -9,7 +9,7 @@ int main()
 	{
 		if (a>c) 
 			d=a;
-		if (a<c)
+		else
 			d=c;
 	}
 	else
