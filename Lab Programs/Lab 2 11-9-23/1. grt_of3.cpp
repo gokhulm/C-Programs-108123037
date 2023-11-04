@@ -19,5 +19,5 @@ int main()
 		else
 		d=c;
 	}
-	printf("The greatest is",d);
+	printf("The greatest is %d",d);
 }
