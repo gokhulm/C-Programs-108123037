@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-	int n,v,i,j,k,l,d=0;
+	int n,v,i,j,k,l,d=0,c=0;
 	printf("Enter value of n ");
 	scanf("%d",&n);
 	int a[n];
@@ -23,8 +23,11 @@ int main()
 					a[l]=a[l+1];
 				k--;
 				d++;
+				c=1;
 			}
 		}
+		if (c)
+			i--;
 	}
 	for (i=0;i<k;i++)
 	{

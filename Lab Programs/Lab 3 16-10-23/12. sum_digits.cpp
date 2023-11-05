@@ -11,6 +11,6 @@ int main()
 		s+=m%10;
 		m/=10;	
 	}
-	printf("%d is the sum of digits of number %d",s,n);
+	printf("%d is the sum of digits of %d",s,n);
 	return 0;
 }

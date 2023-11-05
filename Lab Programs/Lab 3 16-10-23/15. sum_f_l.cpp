@@ -13,7 +13,7 @@ int main()
 		m/=10;
 	}
 	last=n%10;
-	first=int(n/pow(10,len-1))%10;
+	first=int(n/pow(10,len-1));
 	sum+=first+last;
 	printf("%d is the sum of first and last digit",sum);
 	return 0;
