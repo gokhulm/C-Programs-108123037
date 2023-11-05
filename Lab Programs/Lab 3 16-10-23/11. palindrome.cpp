@@ -19,5 +19,7 @@ int main()
 	}
 	if (n==o)
 	printf("%d is a palindrome number",n);
+	else
+	printf("%d is not a palindrome number",n);
 	return 0;
 }
