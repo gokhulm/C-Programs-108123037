@@ -9,18 +9,13 @@ int main()
 	scanf("%s",a);
 	while(a[i]!='\0')
 	{
-		n=a[i]+32;
-		printf("%d",a[i]);
+		n=a[i];
 		if (n<=90 && n>=65)
 		a[i]= (n+32);
 		i++;
 	}
 	i=0;
-	while(a[i]!='\0')
-	{
-		printf("%c",a[i]);
-		i++;
-	}
+	printf("%s",a);
 	return 0;
 }
 	
