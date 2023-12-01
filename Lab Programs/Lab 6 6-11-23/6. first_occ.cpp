@@ -3,8 +3,8 @@
 #include<string.h>
 int main()
 {
-	char a[100],s,b=1;
-	int i=0;
+	char a[100],s;
+	int i=0,b=1;
 	printf("Enter string ");
 	gets(a);
 	printf("Enter character to search for ");
