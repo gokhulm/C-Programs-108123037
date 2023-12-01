@@ -20,4 +20,5 @@ int main()
 		a[l-1-i]=d;
 	}
 	printf("%s",a);
+return 0;
 }
